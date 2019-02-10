@@ -1,4 +1,4 @@
-/*!
+git /*!
  * Start Bootstrap - Agency v5.0.5 (https://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #800000;
+  color: maroon;
 }
 
 a:hover {
-  color: #EE82EE;
+  color: gray ;
 }
 
 .text-primary {
-  color: #800000 !important;
+  color: maroon !important;
 }
 
 h1,
@@ -40,7 +40,7 @@ section {
 }
 
 section h2.section-heading {
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -71,23 +71,23 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: burlywood;
-  border-color: #DB7093;
+  background-color: teal;
+  border-color: pink;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: burlywood !important;
-  border-color: burlywood !important;
+  background-color: gray !important;
+  border-color: gray !important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgb(255,160,122 0.5) !important;
 }
 
 ::selection {
-  background: #A0522D;
+  background: gray;
   text-shadow: none;
 }
 
@@ -100,7 +100,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #008080;
+  background-color: teal;
 }
 
 #mainNav .navbar-toggler {
@@ -108,32 +108,32 @@ img::-moz-selection {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: #800000;
+  color: white;
   border: 0;
-  background-color: burlywood;
+  background-color: maroon;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #800000;
+  color: #fed136;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: red;
+  color: Gray;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 100%;
+  font-size: 90%;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: burlywood;
+  color: white;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: burlywood;
+  color: #fed136;
 }
 
 @media (min-width: 992px) {
@@ -156,7 +156,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #008080;
+    background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -166,36 +166,17 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: none;
-  background-image: url("../img/botanical.jpg");
+  color: white;
+  background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
 
-body {
-  padding-top: 56px;
-}
-
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.portfolio-item {
-  margin-bottom: 30px;
-}
-
-
 header.masthead .intro-text {
-  padding-top: 300px;
-  padding-bottom: 250px;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -214,10 +195,10 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 19000px;
-    padding-bottom: 19000px;
+    padding-top: 300px;
+    padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
@@ -235,16 +216,6 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -270,7 +241,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgb(222,184,135, 0.5);
+  background: rgb(255,160,122, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -472,7 +443,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: burlywood;
+  background-color: gray;
 }
 
 .timeline > li .timeline-image h4 {
@@ -616,13 +587,13 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/tumblr-cat-background-7.jpg");
+  background-image: url("https://image.shutterstock.com/z/stock-vector-hand-draw-cat-seamless-pattern-doodle-cartoon-cat-background-funny-doodle-wallpaper-482188285.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 section#contact .section-heading {
-  color: maroon;
+  color: pink;
 }
 
 section#contact .form-group {
@@ -643,7 +614,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: burlywood;
+  border-color: #fed136;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -664,13 +635,6 @@ section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-section#comingsoon:-ms-input-placeholder {
-    font-weight:700
-    color: #ced5da;
-    font-family: 'Montserrat', apple-system, BlinkMacSysytemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-        
 }
 
 section#contact :-ms-input-placeholder {
@@ -718,5 +682,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color:	maroon;
+  background-color: #fed136;
 }
